@@ -29,6 +29,9 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
     return (
         <html lang="en">
+             <head>
+                <link rel="icon" href="/assets/images/logo/preload.png" />
+            </head>
             <body className={`${grotesk.variable} header-fixed page-loaded`}>{children}</body>
         </html>
     );
