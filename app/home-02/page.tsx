@@ -6,7 +6,12 @@ import RecommendProject from '@/components/sections/RecommendProject';
 import Token2 from '@/components/sections/Token2';
 import Tier from '@/components/sections/Tier';
 import Technology from '@/components/sections/Technology';
-
+import Roadmap from '@/components/sections/Roadmap'
+import Team from '@/components/sections/Team';
+import CTA1 from '@/components/sections/CTA1';
+import Partner2 from '@/components/sections/Partner2';
+import CTA2 from '@/components/sections/CTA2';
+import Faqs from '@/components/sections/Faqs';
 
 const Home2 = () => {
   return (
@@ -18,6 +23,12 @@ const Home2 = () => {
         < Token2 />
         < Tier />
         < Technology />
+        < Roadmap />
+        < Team />
+        < Partner2 />
+        < CTA2 />
+        < Faqs />
+        < CTA1 img='boy' />
       </Layout>
     </>
   );

@@ -5,9 +5,10 @@ import Project1 from "@/components/sections/Project1";
 import ProjectSlider from "@/components/sections/ProjectSlider";
 import Join from '@/components/sections/Join';
 import AllProject from '@/components/sections/AllProject';
-import Team1 from '@/components/sections/Team1';
+import Team from '@/components/sections/Team';
 import Partner1 from '@/components/sections/Partner1';
 import CTA1 from '@/components/sections/CTA1';
+import Token1 from '@/components/sections/Token1';
 
 const Home = () => {
   return (
@@ -17,10 +18,11 @@ const Home = () => {
         < Project1 />
         < ProjectSlider />
         < Join />
+        < Token1 />
         < AllProject />
-        < Team1 />
+        < Team />
         < Partner1 />
-        < CTA1 />
+        < CTA1 img='boy' />
       </Layout>
     </>
   );

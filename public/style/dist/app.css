@@ -1516,7 +1516,7 @@ form button {
   position: relative;
 }
 .img_technology .coin {
-  position: relative;
+  position: absolute;
 }
 .img_technology .coin.coin_1 {
   top: 44%;
@@ -3912,7 +3912,7 @@ form button {
   margin-bottom: 30px;
 }
 .partner-wrapper .image img {
-  opacity: 0.3;
+  opacity: 1;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
@@ -3934,12 +3934,12 @@ form button {
   margin-left: 30px;
   height: 70px;
   position: relative;
-  -webkit-mask-image: url("./../../assets/images/backgroup/bg_partner_2.png");
-  mask-image: url("./../../assets/images/backgroup/bg_partner_2.png");
+  -webkit-mask-image: url("./../../assets/images/backgroup/PartnerLogoBG.png");
+  mask-image: url("./../../assets/images/backgroup/PartnerLogoBG.png");
   -webkit-mask-position: center center;
   mask-position: center center;
   -webkit-mask-repeat: no-repeat;
-  background: url("./../../assets/images/backgroup/bg_partner_2.png");
+  background: url("./../../assets/images/backgroup/PartnerLogoBG.png");
   background-position: center, center;
   background-size: cover;
   display: flex;
@@ -7461,6 +7461,7 @@ form button {
   mix-blend-mode: luminosity;
   opacity: 0.7;
 }
+
 .tf-section.tf_CTA .image_cta {
   margin-top: -74px;
 }
@@ -7682,7 +7683,7 @@ form button {
   top: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(180deg, #09121D 0%, rgba(9, 18, 29, 0) 55.73%, #09121D 100%), url("./../../assets/images/backgroup/bg_home3.png");
+  background: linear-gradient(180deg, #09121D 0%, rgba(9, 18, 29, 0) 55.73%, #09121D 100%);
   mix-blend-mode: luminosity;
   opacity: 0.35;
   background-repeat: no-repeat;
@@ -7752,6 +7753,7 @@ form button {
   padding-bottom: 128px;
 }
 .home3 .tf-section.three_step {
+  padding-top: 70px;
   padding-bottom: 130px;
 }
 
@@ -8916,6 +8918,36 @@ img.mfp-img {
 }
 .flat-accordion .flat-toggle.active .toggle-title .icon-Icon {
   color: #86FF00;
+}
+.flat-accordion .accordion-item .accordion-button {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.4;
+  outline: none;
+  padding: 0 0 0 40px;
+  position: relative;
+  transition: all .3s ease;
+}
+.flat-accordion .accordion-item .accordion-button:before {
+  color: #fff;
+  content: "";
+  font-family: risebot;
+  font-size: 28px;
+  padding-right: 10px;
+  transition: all .3s ease;
+}
+
+.flat-accordion .accordion-item .accordion-button::after {
+  color: #fff;
+  content: "";
+  font-family: risebot;
+  font-size: 28px;
+  padding-right: 10px;
+  transition: all .3s ease;
+
 }
 
 /* comment
