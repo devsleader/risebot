@@ -18,7 +18,7 @@ export default function Breadcrumb({ breadcrumbTitle }: BreadcrumbProps) {
                                 <h3>{breadcrumbTitle}</h3>
                                 <ul>
                                     <li>
-                                        <Link href="/./index">Home</Link>
+                                        <Link href="/">Home</Link>
                                     </li>
                                     <li>
                                         <span className="icon">
