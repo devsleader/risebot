@@ -7854,8 +7854,6 @@ form button {
 .faq-page .tf-section.questions {
   padding: 102px 0;
   display: block;
-  background: url("./../../assets/images/backgroup/bg_question.png") center center no-repeat;
-  mix-blend-mode: luminosity;
 }
 .faq-page .tf-section.tf-faq {
   padding: 60px 0 24px;
