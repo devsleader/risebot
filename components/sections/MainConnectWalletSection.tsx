@@ -74,7 +74,7 @@ const MainConnectWalletSection = () => {
                   <ul>
                     {wallets.map((wallet) => (
                       <li key={wallet.name}>
-                        <Link href="/connect">
+                        <Link href="/connect-wallet">
                           <div className="flex items-center justify-between w-full">
                             <div className="flex items-center">
                               <Image

@@ -87,7 +87,7 @@ export default function AddClassBody() {
             else if (pathname === '/register') {
                 bodyElement.classList.add('inner-page', 'login-page')
             }
-            else if (pathname === '/forget-password') {
+            else if (pathname === '/forgot-password') {
                 bodyElement.classList.add('inner-page', 'login-page', 'forget')
             }
             else if (pathname === '/blog-grid') {
