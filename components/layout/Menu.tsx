@@ -63,7 +63,7 @@ export default function Menu() {
                         </li>
                     </ul>
                 </li>
-                <li className={`menu-item menu-item-has-children ${checkParentActive(["/token", "/connect-wallet", "/team-details", "/submit-IGO-on-chain", "/faq", "/login", "/register", "/forget-password"])}`}>
+                <li className={`menu-item menu-item-has-children ${checkParentActive(["/token", "/connect-wallet", "/team-details", "/submit-IGO-on-chain", "/faq", "/login", "/register", "/forgot-password"])}`}>
                     <Link href="#">Page</Link>
                     <ul className="sub-menu">
                         <li className={`menu-item ${checkCurrentMenuItem("/token")}`}>
@@ -87,8 +87,8 @@ export default function Menu() {
                         <li className={`menu-item ${checkCurrentMenuItem("/register")}`}>
                             <Link href="/register">Register</Link>
                         </li>
-                        <li className={`menu-item ${checkCurrentMenuItem("/forget-password")}`}>
-                            <Link href="/forget-password">Forget Password</Link>
+                        <li className={`menu-item ${checkCurrentMenuItem("/forgot-password")}`}>
+                            <Link href="/forgot-password">Forget Password</Link>
                         </li>
                     </ul>
                 </li>

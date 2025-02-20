@@ -42,7 +42,7 @@ const Footer1: React.FC = () => {
                                         <Link href="/connect-wallet">Connect Wallet</Link>
                                     </li>
                                     <li>
-                                        <Link href="/forget-password">Forget Password</Link>
+                                        <Link href="/forgot-password">Forget Password</Link>
                                     </li>
                                     <li>
                                         <Link href="/faq">FAQs</Link>
