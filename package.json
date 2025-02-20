@@ -20,6 +20,7 @@
     "react-countup": "^6.5.3",
     "react-dom": "^18.2.0",
     "react-scroll-trigger": "^0.6.14",
+    "react-tabs": "^6.1.0",
     "sass": "^1.85.0",
     "swiper": "^11.2.4",
     "wowjs": "^1.1.3"

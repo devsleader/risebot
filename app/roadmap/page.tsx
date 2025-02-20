@@ -7,7 +7,7 @@ import MainRoadmapSection from '@/components/sections/MainRoadmapSection';
 const  roadmap= () => {
   return (
     <>
-      <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Discover potential projects" >
+      <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Road Map" >
         < MainRoadmapSection />
         < CTA1 img='girl' />
       </Layout>

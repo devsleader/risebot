@@ -7,7 +7,7 @@ import MainBlogListSection from '@/components/sections/MainBlogListSection'
 const  bloglist= () => {
   return (
     <>
-      <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Discover potential projects" >
+      <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Blog List" >
         < MainBlogListSection />
         < CTA1 img='girl' />
       </Layout>

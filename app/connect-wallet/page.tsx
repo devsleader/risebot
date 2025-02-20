@@ -7,7 +7,7 @@ import MainConnectWalletSection from '@/components/sections/MainConnectWalletSec
 const  connet= () => {
   return (
     <>
-      <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Discover potential projects" >
+      <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Connect Wallet" >
         < MainConnectWalletSection />
         < CTA1 img='boy' />
       </Layout>

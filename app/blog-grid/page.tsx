@@ -7,7 +7,7 @@ import MainBlogGridSection from '@/components/sections/MainBlogGridSection';
 const  bloggrid= () => {
   return (
     <>
-      <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Discover potential projects" >
+      <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="All Blogs" >
         < MainBlogGridSection />
         < CTA1 img='girl' />
       </Layout>
