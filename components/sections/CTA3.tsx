@@ -17,7 +17,7 @@ const CTA3 = () => {
               <h2 className="title">become our potential partner</h2>
               <p className="sub">Lorem ipsum dolor sit amet consectetur</p>
               <div className="wrap-btn">
-                <Link href="/project_submit" className="tf-button style3">
+                <Link href=" /submit-project" className="tf-button style3">
                   Apply Project
                 </Link>
               </div>
